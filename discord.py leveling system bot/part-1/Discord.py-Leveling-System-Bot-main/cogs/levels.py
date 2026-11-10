@@ -114,9 +114,9 @@ class Levelsys(commands.Cog):
         fill="#ff9933",
         radius=20,
     )
-    background.text((200, 40), str(userr.name), font=poppins, color="#ff9933")
+    background.text((200, 40), str(userr.name), font=poppins, color="#FF0000")
 
-    background.rectangle((200, 100), width=350, height=2, fill="#ff9933")
+    background.rectangle((200, 100), width=350, height=2, fill="#FF0000")
     background.text(
         (200, 130),
         f"Level : {lvl}   "
